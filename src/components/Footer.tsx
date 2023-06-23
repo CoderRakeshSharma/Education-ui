@@ -13,7 +13,7 @@ const Footer = () => {
               <p>
                 Lorem lpsum is simply dummy text of the printing and typesetting
                 industry Lorem Ipsum has been the industry&apos;s standard dummy
-                a type specimen book.
+                a type specimen <br />book.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
             <ul>
               <li className="mt-3">+0913-705-3875</li>
               <li className="mt-3">ElizabethJ@jourrapide.com</li>
-              <li className="mt-3">4808 Skinner Hollow Road Days Creek, OR 97429</li>
+              <li className="mt-3">4808 Skinner Hollow Road <br />Days Creek, OR 97429</li>
             </ul>
           </div>
         </div>
