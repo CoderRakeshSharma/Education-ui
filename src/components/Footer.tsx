@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-50 flex justify-between items-center">
+    <footer className="bg-orange-50 flex justify-between items-center flex-col">
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           <div>
@@ -13,7 +13,8 @@ const Footer = () => {
               <p>
                 Lorem lpsum is simply dummy text of the printing and typesetting
                 industry Lorem Ipsum has been the industry&apos;s standard dummy
-                a type specimen <br />book.
+                a type specimen <br />
+                book.
               </p>
             </div>
           </div>
@@ -48,10 +49,16 @@ const Footer = () => {
             <ul>
               <li className="mt-3">+0913-705-3875</li>
               <li className="mt-3">ElizabethJ@jourrapide.com</li>
-              <li className="mt-3">4808 Skinner Hollow Road <br />Days Creek, OR 97429</li>
+              <li className="mt-3">
+                4808 Skinner Hollow Road <br />
+                Days Creek, OR 97429
+              </li>
             </ul>
           </div>
         </div>
+      </div>
+      <div className="mt-3 text-l">
+        <p>BookStore All Right Reserved, 2022</p>
       </div>
     </footer>
   );
