@@ -19,7 +19,7 @@ export const navBarArr = [
   },
   {
     key: 4,
-    title: "HomOur Service",
+    title: "Our Service",
     path: "",
   },
   {
