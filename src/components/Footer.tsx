@@ -4,8 +4,8 @@ import { footerArr } from "./data";
 const Footer = () => {
   return (
     <footer className="bg-[#FDF8EE] flex justify-between items-center w-full flex-col">
-      <div className="container mx-auto py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+      <div className="container py-8 mx-auto">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-5">
           {footerArr.map((item) => (
             <div key={item.key} className="mt-3">
               {item.image && (
@@ -17,7 +17,7 @@ const Footer = () => {
                   />
                 </div>
               )}
-              {item.title && <h2 className="text-xl font-bold mb-3">{item.title}</h2>}
+              {item.title && <h2 className="mb-3 text-xl font-bold">{item.title}</h2>}
               <ul>
                 {Object.values(item)
                   .filter((val, index) => index >= 2)
@@ -31,8 +31,8 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="text-lg border-t w-full border-slate-600 py-2">
-        <div className="w-full items-center justify-center text-center">
+      <div className="w-full py-2 text-lg border-t border-slate-600">
+        <div className="items-center justify-center w-full text-center">
           BookStore All Right Reserved, 2022
         </div>
       </div>
