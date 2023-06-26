@@ -3,7 +3,7 @@ import { footerArr } from "./data";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange flex justify-between items-center w-full flex-col">
+    <footer className="bg-[#FDF8EE] flex justify-between items-center w-full flex-col">
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {footerArr.map((item) => (

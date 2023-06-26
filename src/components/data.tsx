@@ -35,7 +35,7 @@ export const footerArr = [
       "Lorem lpsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy a type specimen book.",
   },
   {
-    key: 1,
+    key: 2,
     title: "Company",
     list1: " About Us",
     list2: "How to work",
@@ -43,14 +43,14 @@ export const footerArr = [
     list4: "Service",
   },
   {
-    key: 2,
+    key: 3,
     title: "Courses",
     list1: "Categories",
     list2: "Offline Course",
     list3: "Video Course",
   },
   {
-    key: 3,
+    key: 4,
     title: "Support",
     list1: "FAQ",
     list2: "Help Center",
@@ -58,7 +58,7 @@ export const footerArr = [
     list4: "Privacy",
   },
   {
-    key: 4,
+    key: 5,
     title: "Contact Info",
     list1: "+0913-705-3875",
     list2: "ElizabethJ@jourrapide.com",
