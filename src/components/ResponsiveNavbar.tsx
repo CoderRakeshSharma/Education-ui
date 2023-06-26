@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { navBarArr } from "./Navbar";
+import { navBarArr } from "./data";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";

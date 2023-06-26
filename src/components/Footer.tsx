@@ -1,60 +1,34 @@
 import React from "react";
+import { footerArr } from "./data";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-50 flex justify-between items-center w-full flex-col">
+    <footer className="bg-orange flex justify-between items-center w-full flex-col">
       <div className="container mx-auto py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-          <div>
-            <div>
-              <img src="/logo1.png" alt="Logo" className="h-18 w-18" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+          {footerArr.map((item) => (
+            <div key={item.key} className="mt-3">
+              {item.image && (
+                <div>
+                  <img
+                    src={item.image}
+                    alt="Logo"
+                    className="h-18 w-18"
+                  />
+                </div>
+              )}
+              {item.title && <h2 className="text-xl font-bold mb-3">{item.title}</h2>}
+              <ul>
+                {Object.values(item)
+                  .filter((val, index) => index >= 2)
+                  .map((listItem, index) => (
+                    <li className="mt-3" key={index}>
+                      {listItem}
+                    </li>
+                  ))}
+              </ul>
             </div>
-            <div className="mt-3">
-              <p>
-                Lorem lpsum is simply dummy text of the printing and typesetting
-                industry Lorem Ipsum has been the industry&apos;s standard dummy
-                a type specimen <br />
-                book.
-              </p>
-            </div>
-          </div>
-          <div className="mt-3">
-            <h2 className="text-xl font-bold">Company</h2>
-            <ul>
-              <li className="mt-3">About us</li>
-              <li className="mt-3">How to work?</li>
-              <li className="mt-3">Populer Course</li>
-              <li className="mt-3">Service</li>
-            </ul>
-          </div>
-          <div className="mt-3">
-            <h2 className="text-xl font-bold">Courses</h2>
-            <ul>
-              <li className="mt-3">Categories</li>
-              <li className="mt-3">Offline Course</li>
-              <li className="mt-3">Video Course</li>
-            </ul>
-          </div>
-          <div className="mt-3">
-            <h2 className="text-xl font-bold">Support</h2>
-            <ul>
-              <li className="mt-3">FAQ</li>
-              <li className="mt-3">Help Center</li>
-              <li className="mt-3">Career</li>
-              <li className="mt-3">Privacy</li>
-            </ul>
-          </div>
-          <div className="mt-3">
-            <h2 className="text-xl font-bold">Contact Info</h2>
-            <ul>
-              <li className="mt-3">+0913-705-3875</li>
-              <li className="mt-3">ElizabethJ@jourrapide.com</li>
-              <li className="mt-3">
-                4808 Skinner Hollow Road <br />
-                Days Creek, OR 97429
-              </li>
-            </ul>
-          </div>
+          ))}
         </div>
       </div>
       <div className="text-lg border-t w-full border-slate-600 py-2">

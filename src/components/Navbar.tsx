@@ -1,33 +1,8 @@
 import Link from "next/link";
 import ResponsiveNavbar from "./ResponsiveNavbar";
+import { navBarArr } from "./data";
 
-export const navBarArr = [
-  {
-    key: 1,
-    title: "Home",
-    path: "",
-  },
-  {
-    key: 2,
-    title: "About",
-    path: "",
-  },
-  {
-    key: 3,
-    title: "Courses",
-    path: "",
-  },
-  {
-    key: 4,
-    title: "Our Service",
-    path: "",
-  },
-  {
-    key: 5,
-    title: "Contact Us",
-    path: "",
-  },
-];
+
 
 const Navbar = () => {
   return (
@@ -52,7 +27,7 @@ const Navbar = () => {
     // </nav>
 
     //  example for navbar
-    <div className="w-full border-b border-primary border-slate-600">
+    <div className="w-full bg-orange border-b border-primary border-slate-600">
       <div className="main-container py-4 lg:flex justify-between items-center hidden">
         <div>
           <img src="/logo1.png" alt="Logo" className="h-18 w-18" />
