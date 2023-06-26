@@ -10,7 +10,7 @@ const ResponsiveNavbar = () => {
   return (
     <div className="w-full relative flex-col flex lg:hidden py-3 z-[200]">
       {/* logo and toggle button */}
-      <div className="w-full flex items-center justify-between main-container">
+      <div className="flex items-center justify-between w-full main-container">
         <div className="z-[100]">
           <img src="/logo1.png" alt="Logo" className="h-13 w-13" />
         </div>
@@ -31,7 +31,7 @@ const ResponsiveNavbar = () => {
             : "-translate-y-[200%] opacity-0"
         }`}
       >
-        <div className="main-container flex flex-col gap-3 py-4">
+        <div className="flex flex-col gap-3 py-4 main-container">
           <div className="flex flex-col gap-2">
             {navBarArr.map((_) => (
               <div key={_.key}>
