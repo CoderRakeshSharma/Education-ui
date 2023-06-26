@@ -10,14 +10,12 @@ const Footer = () => {
             <div key={item.key} className="mt-3">
               {item.image && (
                 <div>
-                  <img
-                    src={item.image}
-                    alt="Logo"
-                    className="h-18 w-18"
-                  />
+                  <img src={item.image} alt="Logo" className="h-18 w-18" />
                 </div>
               )}
-              {item.title && <h2 className="mb-3 text-xl font-bold">{item.title}</h2>}
+              {item.title && (
+                <h2 className="mb-3 text-xl font-bold">{item.title}</h2>
+              )}
               <ul>
                 {Object.values(item)
                   .filter((val, index) => index >= 2)
