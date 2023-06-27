@@ -26,6 +26,42 @@ export const navBarArr = [
     path: "",
   },
 ];
+
+//data for card3rd
+export const card3rdArr =[
+  {
+    key:1,
+    image:"professor1.png",
+    text1:"Matthew E. McNatt",
+    text2:"Professor @George Brown College",
+    text3:"Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
+    text4:"Engineering physics",
+    icon1:"instalogo.png",
+    icon2:"linkedinlogo.png",
+  },
+  {
+    key:2,
+    image:"professor2.png",
+    text1:"Tracy D. Wright",
+    text2:"Professor @George Brown College",
+    text3:"Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
+    text4:"Engineering physics",
+    icon1:"instalogo.png",
+    icon2:"linkedinlogo.png",
+  },
+  {
+    key:3,
+    image:"professor3.png",
+    text1:"Cynthia A. Nelson",
+    text2:"Professor @George Brown College",
+    text3:"Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
+    text4:"Engineering physics",
+    icon1:"instalogo.png",
+    icon2:"linkedinlogo.png",
+  },
+];
+
+
 // data for footer
 export const footerArr = [
   {
