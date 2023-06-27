@@ -39,13 +39,13 @@ const Newsletter = () => {
 
         {/* Email Input and Submit Button */}
         <form onSubmit={handleSubmit} className="mt-4">
-          <div className="flex items-center">
+          <div className="flex place-content-center">
             <input
               type="email"
               placeholder="Email Address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-2 rounded-full"
+              className="w-96 p-2 rounded-full"
             />
             <button type="submit" className="px-4 py-2 bg-orange rounded-full text-white cursor-pointer">
               Send
