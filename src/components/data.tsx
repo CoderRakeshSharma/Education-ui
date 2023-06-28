@@ -27,6 +27,22 @@ export const navBarArr = [
   },
 ];
 
+//data for Experience
+export const expArr =[
+  {
+    key: 1,
+    image: "hearts.png",
+    text1: "Easily Accessible",
+    text2: "Learning Will fell Very Comfortable With Courslab.",
+  },
+  {
+    key: 2,
+    image: "jigsaw.png",
+    text1: "Fun learning expe",
+    text2: "Learning Will fell Very Comfortable With Courslab.",
+  },
+];
+
 //data for card2nd
 export const card2ndArr = [
   {
