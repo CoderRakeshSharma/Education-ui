@@ -6,7 +6,7 @@ const Card3rd = () => {
     <div className="p-20 bg-white">
       <div className="text-center text-black">
         <h2 className="mb-2 text-xl font-bold">Our Tracks</h2>
-        <p className="text-lg">
+        <p className="text-lg text-slate-400">
           Lorem lpsum is simply dummy text of the printing
         </p>
       </div>

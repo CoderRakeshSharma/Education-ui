@@ -27,40 +27,70 @@ export const navBarArr = [
   },
 ];
 
-//data for card3rd
-export const card3rdArr =[
+//data for card2nd
+export const card2ndArr = [
   {
-    key:1,
-    image:"professor1.png",
-    text1:"Matthew E. McNatt",
-    text2:"Professor @George Brown College",
-    text3:"Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
-    text4:"Engineering physics",
-    icon1:"instalogo.png",
-    icon2:"linkedinlogo.png",
+    key: 1,
+    text1:
+      "“Teachings of the great explore of truth, the master-builder of human happiness. no one rejects,dislikes, or avoids pleasure itself, pleasure itself”",
+    image: "student1.png",
+    text2: "Finlay Kirk",
+    text3: "Web Developper",
   },
   {
-    key:2,
-    image:"professor2.png",
-    text1:"Tracy D. Wright",
-    text2:"Professor @George Brown College",
-    text3:"Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
-    text4:"Engineering physics",
-    icon1:"instalogo.png",
-    icon2:"linkedinlogo.png",
+    key: 2,
+    text1:
+      "“Complete account of the system and expound the actual Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots”",
+    image: "student2.png",
+    text2: "Dannette P. Cervantes",
+    text3: "Web Design",
   },
   {
-    key:3,
-    image:"professor3.png",
-    text1:"Cynthia A. Nelson",
-    text2:"Professor @George Brown College",
-    text3:"Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
-    text4:"Engineering physics",
-    icon1:"instalogo.png",
-    icon2:"linkedinlogo.png",
+    key: 3,
+    text1:
+      "“There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour”",
+    image: "student3.png",
+    text2: "Clara R. Altman",
+    text3: "UI&UX Design",
   },
 ];
 
+//data for card3rd
+export const card3rdArr = [
+  {
+    key: 1,
+    image: "professor1.png",
+    text1: "Matthew E. McNatt",
+    text2: "Professor @George Brown College",
+    text3:
+      "Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
+    text4: "Engineering physics",
+    icon1: "instalogo.png",
+    icon2: "linkedinlogo.png",
+  },
+  {
+    key: 2,
+    image: "professor2.png",
+    text1: "Tracy D. Wright",
+    text2: "Professor @George Brown College",
+    text3:
+      "Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
+    text4: "Engineering physics",
+    icon1: "instalogo.png",
+    icon2: "linkedinlogo.png",
+  },
+  {
+    key: 3,
+    image: "professor3.png",
+    text1: "Cynthia A. Nelson",
+    text2: "Professor @George Brown College",
+    text3:
+      "Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut allquip ex commodo.",
+    text4: "Engineering physics",
+    icon1: "instalogo.png",
+    icon2: "linkedinlogo.png",
+  },
+];
 
 // data for footer
 export const footerArr = [
