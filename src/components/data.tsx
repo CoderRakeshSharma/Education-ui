@@ -1,3 +1,9 @@
+import { BiTime } from "react-icons/bi";
+import { BsCameraVideo } from "react-icons/bs";
+import { FiDownload } from "react-icons/fi";
+
+
+
 //data for Navigation Bar
 export const navBarArr = [
   {
@@ -46,6 +52,52 @@ export const boxArr =[
     image: "certification.png",
     text1: "Earn a Certificate",
     text2: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.",
+  },
+];
+
+//data for card1st
+export const card1stArr =[
+  {
+    key:1,
+    image:"course1.png",
+    text1:"UI/UX Design",
+    text2:"UI/UX Design for Beginners",
+    text3:"$98",
+    icon1:<BiTime />,
+    text4:"22hr 30min",
+    icon2:<BsCameraVideo />,
+    text5:"34 Courses",
+    icon3:<FiDownload />,
+    text6:"250 Sales",
+    btn:"Join Course",
+  },
+  {
+    key:2,
+    image:"course2.png",
+    text1:"UI/UX Design",
+    text2:"UI/UX Design for Beginners",
+    text3:"$98",
+    icon1:<BiTime />,
+    text4:"22hr 30min",
+    icon2:<BsCameraVideo />,
+    text5:"34 Courses",
+    icon3:<FiDownload />,
+    text6:"250 Sales",
+    btn:"Join Course",
+  },
+  {
+    key:3,
+    image:"course3.png",
+    text1:"UI/UX Design",
+    text2:"UI/UX Design for Beginners",
+    text3:"$98",
+    icon1:<BiTime />,
+    text4:"22hr 30min",
+    icon2:<BsCameraVideo />,
+    text5:"34 Courses",
+    icon3:<FiDownload />,
+    text6:"250 Sales",
+    btn:"Join Course",
   },
 ];
 
