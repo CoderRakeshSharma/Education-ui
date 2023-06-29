@@ -27,6 +27,28 @@ export const navBarArr = [
   },
 ];
 
+//data for Box Section
+export const boxArr =[
+  {
+    key: 1,
+    image: "pc.png",
+    text1: "Learn The Latest Skills",
+    text2: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.",
+  },
+  {
+    key: 2,
+    image: "paper.png",
+    text1: "Get Ready For a Career",
+    text2: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.",
+  },
+  {
+    key: 3,
+    image: "certification.png",
+    text1: "Earn a Certificate",
+    text2: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a BC, making it over 2000 years old.",
+  },
+];
+
 //data for Experience
 export const expArr =[
   {
