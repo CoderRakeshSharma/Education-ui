@@ -22,8 +22,8 @@ const Card1st = () => {
                 alt="Professor"
                 className="w-full mb-4 rounded-xl"
               />
-              <h3 className="text-lg font-bold">{card.text1}</h3>
-              <p className="text-slate-500 text-base mb-2">{card.text2}</p>
+              <h3 className="text-lg text-slate-500">{card.text1}</h3>
+              <p className="text-black text-base mb-2">{card.text2}</p>
               <p className="text-orange text-sm mb-2">{card.text3}</p>
               <p className="text-slate-400 text-sm mb-2">{card.text4}</p>
               <p className="text-slate-400 text-sm mb-2">{card.text5}</p>
