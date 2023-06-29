@@ -5,10 +5,10 @@ const Experience = () => {
   return (
     <div className="w-full bg-[#FDF8EE] border-b border-primary">
       <div className="flex flex-col md:flex-row">
-        <div className=" mt-20 mb-20 mr-24 md:w-1/2 order-1 md:order-1">
-          <img src="experience.png" alt="Image" className="w-full" />
+        <div className="  md:w-2/5 order-1 md:order-1">
+          <img src="experience.png" alt="Image" className="w-96" />
         </div>
-        <div className="w-full mt-20 mb-20 md:ml-24 md:w-1/2 order-2 md:order-2">
+        <div className="w-full mt-20 mb-20 md:ml-24 md:w-3/5 order-2 md:order-2">
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-bold mb-4">
               Premium
@@ -16,14 +16,14 @@ const Experience = () => {
             </h2>
             <h2 className="text-3xl font-bold mb-4">Experience</h2>
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex flex-col">
             {expArr.map((exp) => (
               <div
                 key={exp.key}
-                className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 p-4 "
+                className="w-full  p-4 "
               >
                 <div className="flex items-center">
-                  <div className="bg-purple-950 h-16 w-52 rounded-2xl ">
+                  <div className="bg-purple-950 flex items-center justify-center h-16 w-44 rounded-2xl ">
                     <img
                       src={exp.image}
                       alt="icon"

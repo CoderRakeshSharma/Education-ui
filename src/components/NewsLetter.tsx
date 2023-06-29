@@ -39,7 +39,7 @@ const Newsletter = () => {
 
         {/* Email Input and Submit Button */}
         <div onSubmit={handleSubmit} className="w-full flex justify-center item-center  mt-4">
-          <div className="flex item-center border rounded-3xl bg-white w-1/4">
+          <div className="flex item-center border rounded-3xl bg-white lg:w-1/4 md:w-1/2 w-11/12">
             <input
               type="email"
               placeholder="Email Address"

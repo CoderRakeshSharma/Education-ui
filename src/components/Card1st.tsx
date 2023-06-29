@@ -24,7 +24,7 @@ const Card1st = () => {
               />
               <h3 className="text-lg text-slate-500">{card.text1}</h3>
               <p className="text-black text-base mb-2">{card.text2}</p>
-              <p className="text-orange text-sm mb-2">{card.text3}</p>
+              <p className="text-orange text-sm mb-2">{card.text3}</p>              
               <p className="text-slate-400 text-sm mb-2">{card.text4}</p>
               <p className="text-slate-400 text-sm mb-2">{card.text5}</p>
               <p className="text-slate-400 text-sm mb-2">{card.text6}</p>

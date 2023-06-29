@@ -12,7 +12,7 @@ const BoxSection = () => {
                 className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 p-4 "
               >
                 <div className="flex items-center">
-                  <div className="bg-slate-400 h-16 w-52 rounded-2xl">
+                  <div className="bg-slate-400 flex items-center justify-center h-16 w-52 rounded-2xl">
                     <img
                       src={box.image}
                       alt="icon"
