@@ -1,3 +1,4 @@
+import { AiFillStar } from "react-icons/ai";
 import { BiTime } from "react-icons/bi";
 import { BsCameraVideo } from "react-icons/bs";
 import { FiDownload } from "react-icons/fi";
@@ -60,6 +61,7 @@ export const card1stArr =[
   {
     key:1,
     image:"course1.png",
+    star:<AiFillStar />,
     text1:"UI/UX Design",
     text2:"UI/UX Design for Beginners",
     text3:"$98",
@@ -74,6 +76,7 @@ export const card1stArr =[
   {
     key:2,
     image:"course2.png",
+    star:<AiFillStar />,
     text1:"UI/UX Design",
     text2:"UI/UX Design for Beginners",
     text3:"$98",
@@ -88,6 +91,7 @@ export const card1stArr =[
   {
     key:3,
     image:"course3.png",
+    star:<AiFillStar />,
     text1:"UI/UX Design",
     text2:"UI/UX Design for Beginners",
     text3:"$98",
