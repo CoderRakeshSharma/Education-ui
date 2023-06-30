@@ -3,7 +3,7 @@ import { expArr } from "./data";
 
 const Experience = () => {
   return (
-    <div className="w-full bg-[#FDF8EE] border-b border-primary">
+    <div className="w-full bg-[#FDF8EE] ">
       <div className="flex flex-col md:flex-row">
         <div className="  md:w-2/5 order-1 md:order-1">
           <img src="experience.png" alt="Image" className="w-96" />
@@ -23,7 +23,7 @@ const Experience = () => {
                 className="w-full  p-4 "
               >
                 <div className="flex items-center">
-                  <div className="bg-purple-950 flex items-center justify-center h-16 w-44 rounded-2xl ">
+                  <div className="bg-purple-950 flex items-center justify-center h-16 w-28 rounded-2xl ">
                     <img
                       src={exp.image}
                       alt="icon"

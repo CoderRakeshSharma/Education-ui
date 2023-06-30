@@ -27,7 +27,7 @@ const Navbar = () => {
     // </nav>
 
     //  example for navbar
-    <div className="w-full bg-[#FDF8EE] border-b border-primary">
+    <div className="w-full bg-[#FDF8EE]">
       <div className="items-center justify-between hidden py-4 main-container lg:flex">
         <div>
           <img src="/logo1.png" alt="Logo" className="h-18 w-18" />

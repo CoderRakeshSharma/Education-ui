@@ -3,7 +3,7 @@ import { FiSearch } from "react-icons/fi";
 
 const LandingPage = () => {
   return (
-    <div className="w-full bg-[#FDF8EE] border-b border-primary">
+    <div className="w-full bg-[#FDF8EE]">
       <div className="flex flex-col md:flex-row">
         <div className="w-full mt-20 mb-20 md:ml-24 md:w-1/2 order-2 md:order-1">
           <div className="text-center md:text-left">
