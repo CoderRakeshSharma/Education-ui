@@ -5,7 +5,7 @@ const BoxSection = () => {
   return (
     <div className="bg-white">
       <div className="bg-purple-950 rounded-3xl">
-        <div className="container mx-auto py-20">
+        <div className="main-container mx-auto py-20">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             {boxArr.map((box) => (
               <div key={box.key} className="flex items-center">
