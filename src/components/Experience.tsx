@@ -23,7 +23,7 @@ const Experience = () => {
                 className="w-full  p-4 "
               >
                 <div className="flex items-center">
-                  <div className="bg-purple-950 flex items-center justify-center h-16 w-28 rounded-2xl ">
+                  <div className="bg-[#4D2C5E] flex items-center justify-center h-16 w-28 rounded-2xl ">
                     <img
                       src={exp.image}
                       alt="icon"

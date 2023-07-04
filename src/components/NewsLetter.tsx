@@ -26,7 +26,7 @@ const Newsletter = () => {
 
   return (
     <div className="p-20 bg-white">
-      <div className="p-8 bg-purple-950 rounded-3xl">
+      <div className="p-8 bg-[#4D2C5E] rounded-3xl">
         {/* Text */}
         <div className="text-center text-white">
           <h2 className="mb-2 text-xl font-bold">

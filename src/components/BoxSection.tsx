@@ -3,13 +3,13 @@ import { boxArr } from "./data";
 
 const BoxSection = () => {
   return (
-    <div className="bg-white">
-      <div className="bg-purple-950 rounded-3xl">
+    <div className="bg-white flex items-center justify-center">
+      <div className="bg-[#4D2C5E] rounded-3xl w-4/5">
         <div className="main-container mx-auto py-20">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             {boxArr.map((box) => (
               <div key={box.key} className="flex items-center">
-                <div className="bg-slate-400 flex items-center justify-center h-16 w-52 rounded-2xl">
+                <div className="bg-[#FFFFFF33] flex items-center justify-center h-16 w-52 rounded-2xl">
                   <img
                     src={box.image}
                     alt="icon"
