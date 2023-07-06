@@ -47,7 +47,7 @@ const Newsletter = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="bg-transparent px-4 py-2 flex-grow "
             />
-            <button type="submit" className="px-4 py-2 bg-orange rounded-full text-white cursor-pointer">
+            <button type="submit" className="px-4 py-2 bg-[#FF7426] rounded-full text-white cursor-pointer">
               Send
             </button>
           </div>
