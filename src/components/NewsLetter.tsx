@@ -39,15 +39,15 @@ const Newsletter = () => {
 
         {/* Email Input and Submit Button */}
         <div onSubmit={handleSubmit} className="w-full flex justify-center item-center  mt-4">
-          <div className="flex item-center border rounded-3xl bg-white lg:w-1/4 md:w-1/2 w-11/12">
+          <div className="flex item-center border rounded-3xl bg-white lg:w-1/4 md:w-1/2 w-full">
             <input
               type="email"
               placeholder="Email Address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="bg-transparent px-4 py-2 flex-grow "
+              className="bg-transparent px-4 py-2 flex-grow w-5/6"
             />
-            <button type="submit" className="px-4 py-2 bg-[#FF7426] rounded-full text-white cursor-pointer">
+            <button type="submit" className="px-4 py-2 bg-[#FF7426] rounded-full text-white cursor-pointer w-fit">
               Send
             </button>
           </div>
